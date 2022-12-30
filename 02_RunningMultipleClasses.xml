@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Running Multiple classes">
+        <classes>
+            <class name="Tests.Day01.Day01_C01_TestNGAnnotations"></class>
+            <class name="Tests.Day01._C02_Priority"></class>
+            <class name="Tests.Day01.Day01_C04_Enabled"></class>
+        </classes>
+
+
+    </test>
+</suite>
