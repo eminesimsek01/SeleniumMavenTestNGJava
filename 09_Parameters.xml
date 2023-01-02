@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Tests">
+   <test name="Parameters Tests">
+      <parameter name="isim" value="Kerem"></parameter>
+<classes>
+   <class name="Tests.Day01.Day02_C02_Parameters">
+   </class>
+</classes>
+   </test>
+
+</suite>
