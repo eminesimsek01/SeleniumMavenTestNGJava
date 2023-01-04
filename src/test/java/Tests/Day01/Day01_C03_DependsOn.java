@@ -15,11 +15,9 @@ public class Day01_C03_DependsOn {
     @Test
     public void registrationTest(){
         System.out.println("Kayıt testi yapılıyor");
-        Assert.fail();
     }
-
     @Test(dependsOnMethods={"loginTest","registrationTest"})
     public void homePageTest() {
-        System.out.println("HomeP age testi yapılıyor");
+        System.out.println("Home Page testi yapılıyor");
     }
 }
